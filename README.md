@@ -26,13 +26,13 @@ As the project has just started, the team doesn't have any data that can be used
 **Extraction of weather information for the next 7 days from the API https://api.openweathermap.org**
 - OUTPUT FILE : 35 cities - 7 days weatherforecast.csv
 
-### Kayak-Bookig.com_Scrapping.ipynb
+### Kayak-Booking.com_Scrapping.ipynb
 
 **Extraction of hotels information by scrapping Booking.com**
 - INPUT FILE : '35 cities - 7 days weatherforecast.csv'
 - OUTPUT FILE : '3 best cities - hotels.cs'
 
-### Kayak-Bookig.com_Scrapping.ipynb
+### Kayak-S3_RDS.ipynb
 
 **Storing all the information in a data lake and load cleaned data from the datalake to a data warehouse**
 - INPUT FILES : '35 cities - 7 days weatherforecast.csv' / '3 best cities - hotels.cs'
