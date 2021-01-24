@@ -29,11 +29,19 @@ As the project has just started, the team doesn't have any data that can be used
 ### Kayak-Booking.com_Scrapping.ipynb
 
 **Extraction of hotels information by scrapping Booking.com**
-- INPUT FILE : '35 cities - 7 days weatherforecast.csv'
-- OUTPUT FILE : '3 best cities - hotels.cs'
+
+**Creation of maps**
+
+- INPUT FILE : 35 cities - 7 days weatherforecast.csv
+- OUTPUT FILE : 3 best cities - hotels.cs
+                best_hotels_in_top_3_cities.html
+                average_temperature_in_selected_cities.html
+                Nimes_hotel_booking.json
+                Uzes_hotel_booking.json
+                Uzes_hotel_booking.json
 
 ### Kayak-S3_RDS.ipynb
 
 **Storing all the information in a data lake and load cleaned data from the datalake to a data warehouse**
-- INPUT FILES : '35 cities - 7 days weatherforecast.csv' / '3 best cities - hotels.cs'
+- INPUT FILES : 35 cities - 7 days weatherforecast.csv / 3 best cities - hotels.cs
 
