@@ -44,5 +44,7 @@ As the project has just started, the team doesn't have any data that can be used
 ### Kayak-S3_RDS.ipynb
 
 **Storing all the information in a data lake and load cleaned data from the datalake to a data warehouse**
-- INPUT FILES : 35 cities - 7 days weatherforecast.csv / 3 best cities - hotels.cs
+- INPUT FILES : 
+    - 35 cities - 7 days weatherforecast.csv
+    - 3 best cities - hotels.cs
 
