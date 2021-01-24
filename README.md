@@ -19,14 +19,21 @@ As the project has just started, the team doesn't have any data that can be used
 
 ## USAGE
 
-### 1_KAYAK-API_Requests.ipynb
+### Kayak-API_Requests.ipynb
 
 **Extraction of GPS information for the 35 cities from the API https://nominatim.openstreetmap.org**
 
 **Extraction of weather information for the next 7 days from the API https://api.openweathermap.org**
-- OUTPUT FILE : '35 cities - 7 days weatherforecast.csv'
+- OUTPUT FILE : 35 cities - 7 days weatherforecast.csv
 
+### Kayak-Bookig.com_Scrapping.ipynb
 
+**Extraction of hotels information by scrapping Booking.com**
+- INPUT FILE : '35 cities - 7 days weatherforecast.csv'
+- OUTPUT FILE : '3 best cities - hotels.cs'
 
-Input file : features_info.csv
+### Kayak-Bookig.com_Scrapping.ipynb
+
+**Storing all the information in a data lake and load cleaned data from the datalake to a data warehouse**
+- INPUT FILES : '35 cities - 7 days weatherforecast.csv' / '3 best cities - hotels.cs'
 
