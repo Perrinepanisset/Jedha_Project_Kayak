@@ -33,12 +33,13 @@ As the project has just started, the team doesn't have any data that can be used
 **Creation of maps**
 
 - INPUT FILE : 35 cities - 7 days weatherforecast.csv
-- OUTPUT FILE : 3 best cities - hotels.cs
-                best_hotels_in_top_3_cities.html
-                average_temperature_in_selected_cities.html
-                Nimes_hotel_booking.json
-                Uzes_hotel_booking.json
-                Uzes_hotel_booking.json
+- OUTPUT FILES : 
+    - 3 best cities - hotels.cs
+    - best_hotels_in_top_3_cities.html
+    - average_temperature_in_selected_cities.html
+    - Nimes_hotel_booking.json
+    - Uzes_hotel_booking.json
+    - Uzes_hotel_booking.json
 
 ### Kayak-S3_RDS.ipynb
 
