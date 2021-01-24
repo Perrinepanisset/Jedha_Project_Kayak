@@ -22,6 +22,7 @@ As the project has just started, the team doesn't have any data that can be used
 ### 1_KAYAK-API_Requests.ipynb
 
 **Extraction of GPS information for the 35 cities from the API https://nominatim.openstreetmap.org**
+
 **Extraction of weather information for the next 7 days from the API https://api.openweathermap.org**
 - OUTPUT FILE : '35 cities - 7 days weatherforecast.csv'
 
