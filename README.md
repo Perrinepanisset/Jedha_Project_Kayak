@@ -12,8 +12,26 @@ The application should then be able to recommend the best destinations and hotel
 ## GOAL
 
 As the project has just started, the team doesn't have any data that can be used to create this application. Therefore, the job will be to:
-
-- Scrape data from destinations 
+- Scrape data from destinations (35 cities listed)
 - Get weather data from each destination 
 - Get hotels' info about each destination 
 - Store all the information above in a data lake Extract, transform and load cleaned data from the datalake to a data warehouse
+
+## USAGE
+
+**1_KAYAK-API_Requests.ipynb
+
+Extraction of GPS information for the 35 cities from the API https://nominatim.openstreetmap.org
+Extraction of weather information for the next 7 days from the API https://api.openweathermap.org
+  - OUTPUT FILE : '35 cities - 7 days weatherforecast.csv'
+
+Input file : features_info.csv
+Output file : dataset_with_labels.csv (not hosted on this repository, you have to create it yourself)
+Explore_dataset.ipynb
+Automates some computations of basic statistics and plots for each feature in the dataset
+
+Input file : dataset_with_labels.csv
+Train_models.ipynb
+Trains some multiclass classifiers from different packages (scikit-learn, keras, XGBoost) and compare their performances
+
+Input file : dataset_with_labels.csv
