@@ -19,19 +19,13 @@ As the project has just started, the team doesn't have any data that can be used
 
 ## USAGE
 
-**1_KAYAK-API_Requests.ipynb
+### 1_KAYAK-API_Requests.ipynb
 
-Extraction of GPS information for the 35 cities from the API https://nominatim.openstreetmap.org
-Extraction of weather information for the next 7 days from the API https://api.openweathermap.org
-  - OUTPUT FILE : '35 cities - 7 days weatherforecast.csv'
+**Extraction of GPS information for the 35 cities from the API https://nominatim.openstreetmap.org**
+**Extraction of weather information for the next 7 days from the API https://api.openweathermap.org**
+- OUTPUT FILE : '35 cities - 7 days weatherforecast.csv'
+
+
 
 Input file : features_info.csv
-Output file : dataset_with_labels.csv (not hosted on this repository, you have to create it yourself)
-Explore_dataset.ipynb
-Automates some computations of basic statistics and plots for each feature in the dataset
 
-Input file : dataset_with_labels.csv
-Train_models.ipynb
-Trains some multiclass classifiers from different packages (scikit-learn, keras, XGBoost) and compare their performances
-
-Input file : dataset_with_labels.csv
